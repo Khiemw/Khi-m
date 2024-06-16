@@ -1,0 +1,203 @@
+header{
+    background-image: url(../img/banner.jpg);
+    padding-bottom: 30%;
+    background-size: 100% 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: lato;
+    color: black;
+}
+/*endheader*/
+nav{
+    height: 40px;
+    background: #01a2ff;
+    margin-bottom: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 0 80px;
+    border-right: 5px solid white;
+}
+nav ul li:hover{
+    background: orange;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav .timkiem{
+    float: right;
+    line-height: 40px
+}
+nav .timkiem input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+}
+nav .timkiem button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: #01a2ff;
+    color: white;
+    margin-left: -5px;
+}
+/*endnav*/
+.chuchay{
+    position: relative;
+    margin-bottom: 5px;
+}
+/*thieu 1 anh chen o day*/
+
+aside{
+    width: 300px;
+    border-left: 1px gray solid;
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: #01a2ff;
+    color: white;
+}
+.menudoc ul{
+    list-style: none;
+
+}
+.menudoc ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+.menudoc ul li:hover{
+    background: orange;
+}
+footer{
+    width: 100%;
+    clear: both;
+    background: #01a2ff;
+    color: #fff;
+}
+.ft1{
+    float: left;
+    width: 400px;
+    margin-bottom: 25px;
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+}
+.ft3{
+    width: 100%;
+    clear: both;
+    height: 40px;
+    background: aqua;
+}
+.ft3 p {
+    color: red;
+    font-size: 15px;
+    font-variant: small-caps;
+    text-align: center;
+
+}
+
+.main-trangchu {
+    display: flex;
+    gap: 100px;
+}
+
+.img-1 img,
+.img-2 img {
+    width: 80%;
+}
+.img-1,
+.img-2 {
+    text-align: center;
+}
+
+.main-tintuc h2 {
+    text-align: center;
+    font-size: 46px;
+}
+
+.main-tintuc .content {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.b-index {
+    color: red;
+    font-size: 20px;
+    display: block;
+    margin: 20px 0;
+}
+
+.b-index-gioithieu {
+    color: black;
+    font-size: 25px;
+}
+
+.main-tintuc .content .content-left {
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.main-tintuc .content .content-right {
+    width: 900px;
+}
+
+.main-tintuc .content .content-right img {
+    width: 100%;
+}
+
+.content-left h5 {
+    font-size: 30px;
+}
+
+.content-left p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.more {
+    color: orange;
+    padding: 10px 30px;
+    border: 1px solid orange;
+    background-color: white;
+}
+
+.more:hover {
+    color: while;
+    background-color: rgb(170, 117, 17);
+}
+
+.des {
+    text-align: center;
+}
+.thongtin{
+    height: 20px;
+}
+.gopy h1{
+    color: red;
+}
+
+
+
+
